@@ -1,0 +1,42 @@
+body /*flex column */
+{
+    display: flex;
+    flex-direction: column;
+}
+
+ul
+{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 36px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.header /*header top container*/
+{
+    display: flex;
+    border: 2px hidden red;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.headerlogo /*header top left*/
+{
+    display: flex;
+    border: 2px hidden blue;
+}
+
+.headerlinks /*header top right*/
+{
+    display: flex;
+    border: 2px hidden blue;
+}
