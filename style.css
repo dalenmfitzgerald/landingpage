@@ -67,7 +67,7 @@ button
     padding-top: 75px;
     padding-left: 200px;
     padding-right: 200px;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
     background-color: #1F2937;
 }
 
@@ -100,7 +100,7 @@ button
 
 .image
 {
-    height: 350px;
+    height: 325px;
     width: 800px;
     display: flex;
 }
@@ -109,4 +109,21 @@ img
 {
     border: 2px solid #F9FAF8;
     border-radius: 30px;
+    filter: brightness(90%);
+}
+
+
+
+
+.midheader /*Some random info*/
+{
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 0;
+    border: 1px none red;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
 }
