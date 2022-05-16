@@ -42,7 +42,7 @@ button
     align-items: center;
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 30px;
+    padding-top: 20px;
     background-color: #1F2937;
 }
 
@@ -64,20 +64,24 @@ button
 .headermid
 {
     display: flex;
-    padding-top: 75px;
+    justify-content: center;
+    padding-top: 85px;
     padding-left: 200px;
     padding-right: 200px;
-    padding-bottom: 75px;
+    padding-bottom: 85px;
     background-color: #1F2937;
+    
 }
 
 .headermidcontainer
 {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
     border: 2px hidden blue;
-    margin-right: 45px;
-    align-items: center;
+    margin-right: 25px;
+    gap: 12px;
+    
 }
 
 .headermidtitle /*This website is awesome*/
@@ -100,16 +104,21 @@ button
 
 .image
 {
-    height: 325px;
-    width: 800px;
     display: flex;
+    min-width: 70%;
+    flex-direction: row;
+    
 }
 
 img
 {
+    display: flex;
     border: 2px solid #F9FAF8;
     border-radius: 30px;
     filter: brightness(90%);
+    width: 100%;
+    height: auto;
+
 }
 
 
@@ -126,4 +135,5 @@ img
     padding-top: 30px;
     padding-bottom: 30px;
     justify-content: center;
+    align-items: center;
 }
