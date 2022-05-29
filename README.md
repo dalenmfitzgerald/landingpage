@@ -1,2 +1,2 @@
 # landingpage
-the odin project: landing page
+demo landing page using HTML + CSS.
